@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 84px;
+  padding: 0 70px;
+
+  &__logo {
+    background-image: url("../../assets/icons/logo.svg");
+    width: 125px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  &__menu {
+  }
+}
+
+.menu {
+  display: flex;
+  gap: 20px;
+  &__item {
+    font-family: 'Proxima Nova Condensed Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    color: #444444;
+    text-decoration: none;
+  }
+}

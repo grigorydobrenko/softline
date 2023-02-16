@@ -1,0 +1,11 @@
+body {
+  font-family: 'Proxima Nova Condensed', sans-serif;
+  font-weight: 400;
+  color: $text;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1250px;
+  margin: 0 auto;
+}

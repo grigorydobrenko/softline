@@ -1,0 +1,95 @@
+.about {
+  padding: 100px 70px;
+
+  &__container {
+  }
+
+  &__description {
+    margin-bottom: 100px;
+    padding: 99px 110px;
+    font-family: 'Proxima Nova Condensed Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.08);
+  }
+
+  &__name {
+    color: #b01736;
+  }
+
+  &__testimonials {
+  }
+}
+
+.testimonials {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 0 110px;
+  row-gap: 82px;
+
+  &:first-child, &:nth-child(2) {
+    column-gap: 185px;
+  }
+
+  &:nth-child(4) {
+    column-gap: 180px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 6px;
+
+    &:nth-child(4) {
+      justify-content: flex-end;
+    }
+
+    &:first-child > span > span {
+      display: inline-block;
+      margin-right: 10px;
+      font-family: 'Proxima Nova Condensed Black';
+      font-size: 56px;
+      vertical-align: top;
+      font-weight: 900;
+    }
+
+    &:last-child > span > span, &:nth-child(4) > span > span {
+      display: inline-block;
+      margin-left: 12px;
+      font-family: 'Proxima Nova Condensed';
+      font-size: 56px;
+      vertical-align: top;
+      font-weight: 600;
+    }
+  }
+
+  &__header {
+    font-family: 'Proxima Nova Condensed Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80%;
+    color: #A30C33;
+    opacity: 0.95;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  &__body {
+    font-style: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #444444;
+    max-width: 240px;
+
+    &:last-child {
+      line-height: 120%;
+    }
+  }
+}
