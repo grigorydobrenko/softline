@@ -20,11 +20,14 @@
     width: 615px;
     height: 260px;
     overflow: hidden;
-    position: relative;
     color: #FFFFFF;
     cursor: pointer;
 
-
+    &:nth-child(5) {
+      .departments-items__title {
+        padding-top: 10px;
+      }
+    }
 
     &_solution-bg {
       background: url("../../assets/img/departments/solutions.jpg");
@@ -78,7 +81,6 @@
     line-height: 100%;
     padding-top: 28px;
     margin-bottom: 20px;
-
   }
 
   &__description {
