@@ -1,0 +1,29 @@
+.mission {
+  background-image: url("../../assets/img/mission/mission.jpg");
+  padding: 140px 80px;
+  margin-bottom: 100px;
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__title {
+    font-family: 'Proxima Nova Condensed Semibold', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 100%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  &__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
