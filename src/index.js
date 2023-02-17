@@ -1,6 +1,5 @@
 import './index.html'
 import './index.scss'
-import {mult} from './modules/calc'
+import './offices/offices'
 
 
-console.log(mult(4, 3))
