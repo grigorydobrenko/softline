@@ -1,0 +1,62 @@
+.swiper-section {
+  position: relative;
+  max-width: 1100px;
+  margin: 100px auto;
+  &__top {
+    margin-bottom: 50px;
+  }
+  &__title {
+   text-align: left;
+  }
+}
+
+.swiper {
+  width: 1100px;
+  height: 834px;
+  padding-bottom: 40px !important;
+}
+
+.swiper-slide {
+  background-color: greenyellow;
+}
+
+.slider-buttons {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  display: flex;
+  width: 14%;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: static;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  min-width: 56px;
+  min-height: 56px;
+  background-image: url("../assets/icons/leftArrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-next {
+  min-width: 56px;
+  min-height: 56px;
+  background-image: url("../assets/icons/rightArrow.svg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+
+
+
+
