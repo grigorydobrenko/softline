@@ -16,6 +16,9 @@
   column-gap: 20px;
   row-gap: 22px;
 
+  @media (max-width: 1250px) {
+    justify-content: center;
+  }
   &__item {
     width: 615px;
     height: 260px;
