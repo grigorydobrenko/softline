@@ -19,6 +19,7 @@
   @media (max-width: 1250px) {
     justify-content: center;
   }
+
   &__item {
     width: 615px;
     height: 260px;
@@ -62,6 +63,7 @@
       }
 
     }
+
   }
 
   &__item-container {
@@ -89,5 +91,11 @@
   &__description {
     padding-right: 115px;
 
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .departments-items__item-container {
+    transform: translate(0, 0);
   }
 }

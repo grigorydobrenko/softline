@@ -3,11 +3,13 @@
   max-width: 1100px;
   margin: 100px auto;
   overflow: hidden;
+
   &__top {
     margin-bottom: 50px;
   }
+
   &__title {
-   text-align: left;
+    text-align: left;
   }
 }
 
@@ -27,6 +29,7 @@
   right: 0;
   display: flex;
   width: 14%;
+
 }
 
 .swiper-button-next,
@@ -56,6 +59,7 @@
   background-size: 100% auto;
   background-position: center;
 }
+
 
 
 
